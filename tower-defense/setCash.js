@@ -36,7 +36,7 @@ function footer() {
             document.onmouseup = null;
             document.onmousemove = null;
         });
-        document.onmousemove = ((e) => {
+        document.onmousemove = (e) => {
             e = e || window.event;
             e.preventDefault();
             pos1 = pos3 - e.clientX;
